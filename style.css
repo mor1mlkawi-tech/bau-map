@@ -208,8 +208,3 @@
       .map-point { width: 18px; height: 18px; }
       .map-point::after { font-size: 10px; }
     }
-.map-container {
-  position: relative;
-  width: 100%;
-  background-color: #1b2238;
-}
