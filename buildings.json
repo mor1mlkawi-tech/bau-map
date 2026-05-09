@@ -13,7 +13,8 @@
       "services": [
         "مختبرات",
         "قاعات تدريس",
-        "مكاتب أكاديمية"
+        "مكاتب أكاديمية",
+        "مسرح"
       ],
       "location": {
         "x": 149,
@@ -21,56 +22,431 @@
       },
       "floors": [
         {
+          "floorNumber": 2,
+          "floorName": "الطابق الثاني",
+          "rooms": [
+            {
+              "id": "eng-dean-001",
+              "number": "",
+              "name": "العميد",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "eng-dean-002",
+              "number": "",
+              "name": "نائب العميد",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "eng-dean-003",
+              "number": "",
+              "name": "سكرتيرة العميد",
+              "type": "مكتب",
+              "capacity": 3
+            },
+            {
+              "id": "eng-dean-004",
+              "number": "",
+              "name": "رئيس الديوان",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "eng-dean-005",
+              "number": "",
+              "name": "المساعد الإداري",
+              "type": "مكتب",
+              "capacity": 3
+            },
+            {
+              "id": "eng-dean-006",
+              "number": "",
+              "name": "قاعة الاجتماعات",
+              "type": "قاعة",
+              "capacity": 20
+            },
+            {
+              "id": "eng-mat-001",
+              "number": "",
+              "name": "رئيس قسم هندسة المواد",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "eng-mat-002",
+              "number": "",
+              "name": "سكرتيرة قسم هندسة المواد",
+              "type": "مكتب",
+              "capacity": 3
+            },
+            {
+              "id": "eng-mat-003",
+              "number": "",
+              "name": "أعضاء الهيئة التدريسية - هندسة المواد",
+              "type": "مكتب",
+              "capacity": 15
+            },
+            {
+              "id": "eng-cs-001",
+              "number": "",
+              "name": "رئيس قسم هندسة الحاسوب",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "eng-cs-002",
+              "number": "",
+              "name": "سكرتيرة قسم هندسة الحاسوب",
+              "type": "مكتب",
+              "capacity": 3
+            },
+            {
+              "id": "eng-cs-003",
+              "number": "",
+              "name": "أعضاء الهيئة التدريسية - هندسة الحاسوب",
+              "type": "مكتب",
+              "capacity": 15
+            },
+            {
+              "id": "eng-geo-001",
+              "number": "",
+              "name": "رئيس قسم هندسة الساحة والجيوماتكس",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "eng-geo-002",
+              "number": "",
+              "name": "سكرتيرة قسم هندسة الساحة والجيوماتكس",
+              "type": "مكتب",
+              "capacity": 3
+            },
+            {
+              "id": "eng-geo-003",
+              "number": "",
+              "name": "أعضاء الهيئة التدريسية - هندسة الساحة والجيوماتكس",
+              "type": "مكتب",
+              "capacity": 15
+            }
+          ]
+        },
+        {
           "floorNumber": 1,
           "floorName": "الطابق الأول",
           "rooms": [
             {
               "id": "eng-101",
               "number": "101",
-              "name": "مختبر برمجة 1",
-              "type": "مختبر",
-              "capacity": 25
+              "name": "قاعة تدريسية 101",
+              "type": "قاعة",
+              "capacity": 40
             },
             {
               "id": "eng-102",
               "number": "102",
-              "name": "قاعة ميكانيك",
+              "name": "قاعة تدريسية 102",
               "type": "قاعة",
               "capacity": 40
             },
             {
               "id": "eng-103",
               "number": "103",
-              "name": "مختبر ميكاترونكس",
+              "name": "قاعة تدريسية 103",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "eng-104",
+              "number": "104",
+              "name": "قاعة تدريسية 104",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "eng-lab-net",
+              "number": "",
+              "name": "مختبر شبكات الحاسوب",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "eng-lab-comp2",
+              "number": "",
+              "name": "مختبر حاسوب هندسي 2",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "eng-quality",
+              "number": "",
+              "name": "قسم الجودة",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "eng-supervisor",
+              "number": "",
+              "name": "مشرف المبنى",
+              "type": "مكتب",
+              "capacity": 3
+            },
+            {
+              "id": "eng-asst-dean",
+              "number": "",
+              "name": "مساعد العميد لشؤون التخطيط والجودة",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "eng-elec-001",
+              "number": "",
+              "name": "رئيس قسم الطاقة الكهربائية",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "eng-elec-002",
+              "number": "",
+              "name": "سكرتيرة قسم الطاقة الكهربائية",
+              "type": "مكتب",
+              "capacity": 3
+            },
+            {
+              "id": "eng-elec-003",
+              "number": "",
+              "name": "أعضاء الهيئة التدريسية - الطاقة الكهربائية",
+              "type": "مكتب",
+              "capacity": 15
+            },
+            {
+              "id": "eng-lab-remote",
+              "number": "",
+              "name": "مختبر الاستشعار عن بعد",
               "type": "مختبر",
               "capacity": 20
+            },
+            {
+              "id": "eng-lab-photo",
+              "number": "",
+              "name": "مختبر الساحة التصويرية العددية",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-lab-gis",
+              "number": "",
+              "name": "مختبر نظم المعلومات الجغرافية",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-liaison",
+              "number": "",
+              "name": "ضابط الارتباط",
+              "type": "مكتب",
+              "capacity": 3
             }
           ]
         },
         {
-          "floorNumber": 2,
-          "floorName": "الطابق الثاني",
+          "floorNumber": 0,
+          "floorName": "الطابق الأرضي",
           "rooms": [
             {
-              "id": "eng-201",
-              "number": "201",
-              "name": "مختبر الذكاء الاصطناعي",
-              "type": "مختبر",
-              "capacity": 35
-            },
-            {
-              "id": "eng-202",
-              "number": "202",
-              "name": "قاعة رسم هندسي",
+              "id": "eng-001",
+              "number": "001",
+              "name": "قاعة تدريسية 001",
               "type": "قاعة",
-              "capacity": 30
+              "capacity": 40
             },
             {
-              "id": "eng-203",
-              "number": "203",
-              "name": "مكتب عميد الكلية",
+              "id": "eng-002",
+              "number": "002",
+              "name": "قاعة تدريسية 002",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "eng-003",
+              "number": "003",
+              "name": "قاعة تدريسية 003",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "eng-004",
+              "number": "004",
+              "name": "قاعة تدريسية 004",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "eng-lab-comm",
+              "number": "",
+              "name": "مختبر الاتصالات والإلكترونيات",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "eng-lab-power",
+              "number": "",
+              "name": "مختبر أنظمة القوى الكهربائية",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "eng-005",
+              "number": "005",
+              "name": "قاعة تدريسية 005",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "eng-006",
+              "number": "006",
+              "name": "قاعة تدريسية 006",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "eng-lab-protection",
+              "number": "",
+              "name": "مختبر حماية أنظمة القوى",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "eng-lab-arch",
+              "number": "",
+              "name": "مختبر معمارية الحاسوب",
+              "type": "مختبر",
+              "capacity": 25
+            }
+          ]
+        },
+        {
+          "floorNumber": -1,
+          "floorName": "طابق التسوية الأولى",
+          "rooms": [
+            {
+              "id": "eng-lab-metal-mfg",
+              "number": "",
+              "name": "مختبر تصنيع وتحليل المعادن",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-lab-corrosion",
+              "number": "",
+              "name": "مختبر التآكل",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-theater",
+              "number": "",
+              "name": "المسرح",
+              "type": "خدمة",
+              "capacity": 200
+            },
+            {
+              "id": "eng-lab-plumbing",
+              "number": "",
+              "name": "مختبر السباكة والمعالجات",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-lab-metals",
+              "number": "",
+              "name": "مختبر المعادن",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-emergency-exit",
+              "number": "",
+              "name": "مخرج طوارئ",
+              "type": "خدمة",
+              "capacity": 0
+            },
+            {
+              "id": "eng-lab-microscope",
+              "number": "",
+              "name": "مختبر المجهر الالكتروني",
+              "type": "مختبر",
+              "capacity": 15
+            },
+            {
+              "id": "eng-lab-circuits",
+              "number": "",
+              "name": "مختبر الدارات الكهربائية",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "eng-lab-geophys1",
+              "number": "",
+              "name": "مختبر الساحة والجيوفيزياء",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-supplies",
+              "number": "",
+              "name": "قسم اللوازم",
               "type": "مكتب",
               "capacity": 5
+            },
+            {
+              "id": "eng-lab-wiring",
+              "number": "",
+              "name": "مختبر التمديدات الكهربائية",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-prayer-room",
+              "number": "",
+              "name": "مصلى الطالبات",
+              "type": "خدمة",
+              "capacity": 30
+            }
+          ]
+        },
+        {
+          "floorNumber": -2,
+          "floorName": "طابق التسوية الثانية",
+          "rooms": [
+            {
+              "id": "eng-lab-digital",
+              "number": "",
+              "name": "مختبر تصميم المنطق الرقمي",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "eng-lab-geophys2",
+              "number": "",
+              "name": "مختبر الجيوفيزياء",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "eng-electricity-room",
+              "number": "",
+              "name": "غرفة الكهرباء الرئيسية",
+              "type": "خدمة",
+              "capacity": 5
+            },
+            {
+              "id": "eng-lab-measurements",
+              "number": "",
+              "name": "مختبر القياسات الدقيقة",
+              "type": "مختبر",
+              "capacity": 20
             }
           ]
         }
@@ -423,6 +799,1029 @@
           ]
         }
       ]
+    },
+    {
+      "id": "bld-007",
+      "name": "كلية السلط التقنية",
+      "nameEn": "Al-Salt Technical College",
+      "shortName": "السلط التقنية",
+      "services": [
+        "قاعات تدريس",
+        "مكاتب أكاديمية",
+        "مشاغل تقنية",
+        "مدرج"
+      ],
+      "location": {
+        "x": 350,
+        "y": 300
+      },
+      "floors": [
+        {
+          "floorNumber": -1,
+          "floorName": "طابق B1",
+          "rooms": [
+            {
+              "id": "salt-b1-hall-805",
+              "number": "805",
+              "name": "قاعات السلط التقنية",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "salt-b1-staff-a",
+              "number": "19-20",
+              "name": "مكاتب الهيئة التدريسية والإدارية",
+              "type": "مكتب",
+              "capacity": 15
+            },
+            {
+              "id": "salt-b1-wc-f",
+              "number": "",
+              "name": "حمام طالبات",
+              "type": "خدمة",
+              "capacity": 0
+            },
+            {
+              "id": "salt-b1-deanship",
+              "number": "",
+              "name": "عمادة كلية السلط التقنية",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "salt-b1-staff-b",
+              "number": "25-35",
+              "name": "مكاتب الهيئة التدريسية والإدارية",
+              "type": "مكتب",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b1-diwan",
+              "number": "",
+              "name": "الديوان",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "salt-b1-supplies",
+              "number": "",
+              "name": "اللوازم",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "salt-b1-prayer-m",
+              "number": "",
+              "name": "مصلى الرجال",
+              "type": "خدمة",
+              "capacity": 30
+            },
+            {
+              "id": "salt-b1-hall-401",
+              "number": "401",
+              "name": "قاعات السلط التقنية",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "salt-b1-king-fund",
+              "number": "",
+              "name": "صندوق الملك عبدالله الثاني للتنمية",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "salt-b1-rehab",
+              "number": "",
+              "name": "مكتب التأهيل الوظيفي",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "salt-b1-staff-c",
+              "number": "31-41",
+              "name": "مكاتب الهيئة التدريسية والإدارية",
+              "type": "مكتب",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b1-wc-m",
+              "number": "",
+              "name": "حمام طلاب",
+              "type": "خدمة",
+              "capacity": 0
+            },
+            {
+              "id": "salt-b1-exit1",
+              "number": "",
+              "name": "مخرج (1)",
+              "type": "خدمة",
+              "capacity": 0
+            }
+          ]
+        },
+        {
+          "floorNumber": -3,
+          "floorName": "طابق B3 - مشاغل السلط التقنية",
+          "rooms": [
+            {
+              "id": "salt-b3-lab-survey",
+              "number": "",
+              "name": "مختبر أجهزة المساحة",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-workshop-elec",
+              "number": "",
+              "name": "مشغل الكهرباء والإلكترونيات المركبة",
+              "type": "مشغل",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-workshop-hydro",
+              "number": "",
+              "name": "مشغل المواني والآلات الهيدروليكية",
+              "type": "مشغل",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-workshop-hvac",
+              "number": "",
+              "name": "مشغل التبريد والتكييف والتمديدات الصحية",
+              "type": "مشغل",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-workshop-3d",
+              "number": "",
+              "name": "مشغل التصنيع الحاسوبي والطباعة ثلاثية الأبعاد",
+              "type": "مشغل",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-wc-f",
+              "number": "",
+              "name": "حمام طالبات",
+              "type": "خدمة",
+              "capacity": 0
+            },
+            {
+              "id": "salt-b3-exit4",
+              "number": "",
+              "name": "مخرج (4)",
+              "type": "خدمة",
+              "capacity": 0
+            },
+            {
+              "id": "salt-b3-theater",
+              "number": "",
+              "name": "مدرج الكلية",
+              "type": "خدمة",
+              "capacity": 200
+            },
+            {
+              "id": "salt-b3-meeting-hall",
+              "number": "",
+              "name": "قاعة الاجتماعات الكبرى",
+              "type": "قاعة",
+              "capacity": 50
+            },
+            {
+              "id": "salt-b3-exit2",
+              "number": "",
+              "name": "مخرج (2)",
+              "type": "خدمة",
+              "capacity": 0
+            },
+            {
+              "id": "salt-b3-lab-roads",
+              "number": "",
+              "name": "مختبر الطرق والمرور",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-lab-roads-adv",
+              "number": "",
+              "name": "مختبر الطرق والمرور المتقدم",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-lab-water",
+              "number": "",
+              "name": "مختبر المياه والبيئة",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-workshop-auto",
+              "number": "",
+              "name": "مشغل ميكانيكا المركبات",
+              "type": "مشغل",
+              "capacity": 20
+            },
+            {
+              "id": "salt-b3-workshop-smart",
+              "number": "",
+              "name": "مشغل الأبنية الذكية",
+              "type": "مشغل",
+              "capacity": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bld-008",
+      "name": "كلية الذكاء الاصطناعي",
+      "nameEn": "College of Artificial Intelligence",
+      "shortName": "الذكاء الاصطناعي",
+      "services": [
+        "مختبرات ذكاء اصطناعي",
+        "مكاتب أكاديمية",
+        "مدرج"
+      ],
+      "location": {
+        "x": 350,
+        "y": 350
+      },
+      "floors": [
+        {
+          "floorNumber": -2,
+          "floorName": "طابق B2",
+          "rooms": [
+            {
+              "id": "ai-b2-lab-modeling",
+              "number": "",
+              "name": "مختبر النمذجة التقنية",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-lab-data",
+              "number": "",
+              "name": "مختبر علم البيانات",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-lab-security",
+              "number": "",
+              "name": "مختبر الأمن السيبراني",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-lab-vr-a",
+              "number": "",
+              "name": "مختبر الواقع الافتراضي",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-staff",
+              "number": "13-18",
+              "name": "مكاتب الهيئة التدريسية",
+              "type": "مكتب",
+              "capacity": 15
+            },
+            {
+              "id": "ai-b2-wc-f",
+              "number": "",
+              "name": "حمام طالبات",
+              "type": "خدمة",
+              "capacity": 0
+            },
+            {
+              "id": "ai-b2-deanship",
+              "number": "",
+              "name": "عمادة كلية الذكاء الاصطناعي",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "ai-b2-dean",
+              "number": "",
+              "name": "عميد كلية الذكاء الاصطناعي",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ai-b2-vice-dean",
+              "number": "",
+              "name": "نائب عميد كلية الذكاء الاصطناعي",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ai-b2-asst-admin",
+              "number": "",
+              "name": "مساعد العميد للشؤون الإدارية",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ai-b2-asst-student",
+              "number": "",
+              "name": "مساعد العميد للشؤون الطلابية",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ai-b2-asst-planning",
+              "number": "",
+              "name": "مساعد العميد لشؤون التخطيط والتطوير",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ai-b2-quality",
+              "number": "",
+              "name": "قسم التطوير والجودة",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ai-b2-diwan",
+              "number": "",
+              "name": "الديوان",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ai-b2-supplies",
+              "number": "",
+              "name": "اللوازم",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ai-b2-prayer-f",
+              "number": "",
+              "name": "مصلى النساء",
+              "type": "خدمة",
+              "capacity": 30
+            },
+            {
+              "id": "ai-b2-lab-vr-c",
+              "number": "",
+              "name": "مختبر الواقع الافتراضي",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-lab-ai",
+              "number": "",
+              "name": "مختبر الذكاء الاصطناعي",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-lab-machines",
+              "number": "",
+              "name": "مختبر الآلات الكهربائية",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-lab-robotics",
+              "number": "",
+              "name": "مختبر الروبوتات",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-lab-energy",
+              "number": "",
+              "name": "مختبر الطاقة المتجددة",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ai-b2-theater",
+              "number": "",
+              "name": "مدرج الذكاء الاصطناعي",
+              "type": "خدمة",
+              "capacity": 150
+            },
+            {
+              "id": "ai-b2-wc-m",
+              "number": "",
+              "name": "حمام طلاب",
+              "type": "خدمة",
+              "capacity": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bld-009",
+      "name": "كلية الأمير عبدالله بن غازي للاتصالات وتكنولوجيا المعلومات",
+      "nameEn": "Prince Abdullah bin Ghazi Faculty of Communications and Information Technology",
+      "shortName": "الاتصالات وتكنولوجيا المعلومات",
+      "services": [
+        "مختبرات حاسوب",
+        "قاعات تدريس",
+        "مكاتب أكاديمية",
+        "مسرح",
+        "كافتيريا"
+      ],
+      "location": {
+        "x": 400,
+        "y": 200
+      },
+      "floors": [
+        {
+          "floorNumber": 2,
+          "floorName": "الطابق الثاني",
+          "rooms": [
+            {
+              "id": "ict-dept-software",
+              "number": "",
+              "name": "قسم هندسة البرمجيات",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "ict-staff-f2",
+              "number": "",
+              "name": "مكاتب أعضاء الهيئة التدريسية",
+              "type": "مكتب",
+              "capacity": 20
+            },
+            {
+              "id": "ict-lab-501",
+              "number": "501",
+              "name": "مختبر 501",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ict-lab-502",
+              "number": "502",
+              "name": "مختبر 502",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ict-lab-503",
+              "number": "503",
+              "name": "مختبر 503",
+              "type": "مختبر",
+              "capacity": 25
+            }
+          ]
+        },
+        {
+          "floorNumber": 1,
+          "floorName": "الطابق الأول",
+          "rooms": [
+            {
+              "id": "ict-asst-student",
+              "number": "",
+              "name": "مساعد العميد للشؤون الطلبة",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ict-dept-cs",
+              "number": "",
+              "name": "قسم علم الحاسوب",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "ict-dept-mis",
+              "number": "",
+              "name": "قسم نظم المعلومات الحاسوبية",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "ict-staff-f1",
+              "number": "",
+              "name": "مكاتب أعضاء الهيئة التدريسية",
+              "type": "مكتب",
+              "capacity": 20
+            },
+            {
+              "id": "ict-hall-401",
+              "number": "401",
+              "name": "قاعة صفية 401",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "ict-hall-402",
+              "number": "402",
+              "name": "قاعة صفية 402",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "ict-hall-405",
+              "number": "405",
+              "name": "قاعة صفية 405",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "ict-hall-406",
+              "number": "406",
+              "name": "قاعة صفية 406",
+              "type": "قاعة",
+              "capacity": 40
+            }
+          ]
+        },
+        {
+          "floorNumber": 0,
+          "floorName": "الطابق الأرضي",
+          "rooms": [
+            {
+              "id": "ict-deanship",
+              "number": "",
+              "name": "العمادة",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "ict-dean-office",
+              "number": "",
+              "name": "مكتب عميد الكلية",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ict-vice-dean",
+              "number": "",
+              "name": "نائب العميد",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ict-asst-quality",
+              "number": "",
+              "name": "مساعد العميد لشؤون ضمان الجودة",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ict-diwan",
+              "number": "",
+              "name": "ديوان الكلية",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ict-lab-301",
+              "number": "301",
+              "name": "مختبر 301",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ict-lab-302",
+              "number": "302",
+              "name": "مختبر 302",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ict-lab-303",
+              "number": "303",
+              "name": "مختبر 303",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ict-lab-304",
+              "number": "304",
+              "name": "مختبر 304",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ict-quality-office",
+              "number": "",
+              "name": "مكتب ضمان الجودة",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ict-entrance",
+              "number": "",
+              "name": "مدخل الكلية",
+              "type": "خدمة",
+              "capacity": 0
+            }
+          ]
+        },
+        {
+          "floorNumber": -1,
+          "floorName": "الطابق B1",
+          "rooms": [
+            {
+              "id": "ict-theater",
+              "number": "",
+              "name": "مسرح الأمير عبدالله بن غازي",
+              "type": "خدمة",
+              "capacity": 200
+            },
+            {
+              "id": "ict-supplies",
+              "number": "",
+              "name": "قسم اللوازم",
+              "type": "مكتب",
+              "capacity": 5
+            },
+            {
+              "id": "ict-cafeteria",
+              "number": "",
+              "name": "الكافتيريا",
+              "type": "خدمة",
+              "capacity": 50
+            }
+          ]
+        },
+        {
+          "floorNumber": -2,
+          "floorName": "الطابق B2",
+          "rooms": [
+            {
+              "id": "ict-lab-100",
+              "number": "100",
+              "name": "مختبر 100",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ict-lab-101",
+              "number": "101",
+              "name": "مختبر 101",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "ict-storage",
+              "number": "",
+              "name": "المستودعات",
+              "type": "خدمة",
+              "capacity": 0
+            },
+            {
+              "id": "ict-exit",
+              "number": "",
+              "name": "مخرج الكلية",
+              "type": "خدمة",
+              "capacity": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bld-010",
+      "mapNumber": "1",
+      "name": "رئاسة الجامعة",
+      "nameEn": "University Presidency",
+      "shortName": "رئاسة الجامعة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-011",
+      "mapNumber": "2",
+      "name": "الأمانة العامة",
+      "nameEn": "General Secretariat",
+      "shortName": "الأمانة العامة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-012",
+      "mapNumber": "3",
+      "name": "كلية التخطيط والادارة",
+      "nameEn": "College of Planning and Administration",
+      "shortName": "التخطيط والادارة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-013",
+      "mapNumber": "5",
+      "name": "المشاغل الهندسية",
+      "nameEn": "Engineering Workshops",
+      "shortName": "المشاغل الهندسية",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-014",
+      "mapNumber": "7",
+      "name": "مجمع القاعات التدريسية",
+      "nameEn": "Teaching Halls Complex",
+      "shortName": "مجمع القاعات",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-015",
+      "mapNumber": "9",
+      "name": "كفتيريا الطلبة",
+      "nameEn": "Students Cafeteria",
+      "shortName": "كفتيريا الطلبة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-016",
+      "mapNumber": "10",
+      "name": "مركز الحاسوب",
+      "nameEn": "Computer Center",
+      "shortName": "مركز الحاسوب",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-017",
+      "mapNumber": "12",
+      "name": "مبنى صالة الضيافة وكفتيرية الموظفين",
+      "nameEn": "Hospitality Hall and Staff Cafeteria",
+      "shortName": "صالة الضيافة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-018",
+      "mapNumber": "14",
+      "name": "مبنى الإدارة كلية السلط",
+      "nameEn": "Al-Salt College Administration Building",
+      "shortName": "إدارة كلية السلط",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-019",
+      "mapNumber": "15",
+      "name": "مبنى ب",
+      "nameEn": "Building B",
+      "shortName": "مبنى ب",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-020",
+      "mapNumber": "16",
+      "name": "الأكاديمية الإلكترونية",
+      "nameEn": "E-Academy",
+      "shortName": "الأكاديمية الإلكترونية",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-021",
+      "mapNumber": "17",
+      "name": "مبنى أ",
+      "nameEn": "Building A",
+      "shortName": "مبنى أ",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-022",
+      "mapNumber": "18",
+      "name": "المبنى التجاري",
+      "nameEn": "Commercial Building",
+      "shortName": "المبنى التجاري",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-023",
+      "mapNumber": "19",
+      "name": "مبنى الصالة الرياضية",
+      "nameEn": "Sports Hall Building",
+      "shortName": "الصالة الرياضية",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-024",
+      "mapNumber": "20",
+      "name": "مختبرات",
+      "nameEn": "Laboratories",
+      "shortName": "مختبرات",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-025",
+      "mapNumber": "21",
+      "name": "مبنى قاعة الندوات",
+      "nameEn": "Seminar Hall Building",
+      "shortName": "قاعة الندوات",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-026",
+      "mapNumber": "22",
+      "name": "كلية الزراعة التكنولوجية",
+      "nameEn": "College of Technological Agriculture",
+      "shortName": "الزراعة التكنولوجية",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-027",
+      "mapNumber": "23",
+      "name": "مدخل كلية الأمير عبد الله",
+      "nameEn": "Prince Abdullah College Entrance",
+      "shortName": "مدخل كلية الأمير",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-028",
+      "mapNumber": "24",
+      "name": "مبنى العمادة",
+      "nameEn": "Deanship Building",
+      "shortName": "مبنى العمادة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-029",
+      "mapNumber": "25",
+      "name": "وحدة الخدمات العامة",
+      "nameEn": "General Services Unit",
+      "shortName": "الخدمات العامة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-030",
+      "mapNumber": "25a",
+      "name": "ملحق خدمات",
+      "nameEn": "Services Annex",
+      "shortName": "ملحق خدمات",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-031",
+      "mapNumber": "28",
+      "name": "مهبط الطائرات",
+      "nameEn": "Helipad",
+      "shortName": "مهبط الطائرات",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-032",
+      "mapNumber": "32",
+      "name": "البوابة الرئيسية",
+      "nameEn": "Main Gate",
+      "shortName": "البوابة الرئيسية",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-033",
+      "mapNumber": "34",
+      "name": "مدخل الرئاسة",
+      "nameEn": "Presidency Entrance",
+      "shortName": "مدخل الرئاسة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-034",
+      "mapNumber": "35",
+      "name": "مدخل كلية التخطيط",
+      "nameEn": "Planning College Entrance",
+      "shortName": "مدخل كلية التخطيط",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-035",
+      "mapNumber": "36",
+      "name": "مدخل اللوازم المستودعات",
+      "nameEn": "Supplies and Warehouses Entrance",
+      "shortName": "مدخل اللوازم",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-036",
+      "mapNumber": "38",
+      "name": "المسجد",
+      "nameEn": "Mosque",
+      "shortName": "المسجد",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-037",
+      "mapNumber": "39",
+      "name": "صرح الجامعة",
+      "nameEn": "University Landmark",
+      "shortName": "صرح الجامعة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-038",
+      "mapNumber": "40",
+      "name": "مركز التطوير وضمان الجودة",
+      "nameEn": "Development and Quality Assurance Center",
+      "shortName": "مركز الجودة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-039",
+      "mapNumber": "41",
+      "name": "الامن الجامعي",
+      "nameEn": "University Security",
+      "shortName": "الامن الجامعي",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-040",
+      "mapNumber": "42",
+      "name": "مبنى الاكاديمية",
+      "nameEn": "Academy Building",
+      "shortName": "مبنى الاكاديمية",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-041",
+      "mapNumber": "43",
+      "name": "مبنى قسم الحركة",
+      "nameEn": "Traffic Department Building",
+      "shortName": "قسم الحركة",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-042",
+      "mapNumber": "46",
+      "name": "كلية الطب",
+      "nameEn": "College of Medicine",
+      "shortName": "كلية الطب",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
+    },
+    {
+      "id": "bld-043",
+      "mapNumber": "47",
+      "name": "مركز الدفاع المدني",
+      "nameEn": "Civil Defense Center",
+      "shortName": "الدفاع المدني",
+      "services": [],
+      "location": { "x": 0, "y": 0 },
+      "floors": []
     }
   ]
 }
