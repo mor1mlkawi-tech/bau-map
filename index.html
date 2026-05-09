@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>خريطة جامعة البلقاء التطبيقية | النسخة النهائية</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>🎓 خريطة جامعة البلقاء التطبيقية</h1>
+      <p>نسخة نهائية بالصورة الواقعية: بحث ذكي، تنقل بين المباني، طوابق، مسار تقريبي، ووضع ليلي</p>
+      <div class="hero-actions">
+        <button class="button secondary" id="themeToggle">🌙 تبديل الوضع</button>
+        <button class="button warning" id="clearRouteButton">🧭 مسح المسار</button>
+      </div>
+    </header>
+
+    <section class="panel toolbar">
+      <div class="toolbar-grid">
+        <input id="searchInput" class="input" type="text" placeholder="ابحث عن قاعة، مبنى، مختبر، مكتبة..." />
+        <button id="searchButton" class="button">🔍 بحث</button>
+        <select id="typeFilter" class="select">
+          <option value="">جميع الأنواع</option>
+        </select>
+        <select id="sortSelect" class="select">
+          <option value="name">ترتيب حسب الاسم</option>
+          <option value="capacity">ترتيب حسب السعة</option>
+          <option value="room-number">ترتيب حسب رقم القاعة</option>
+        </select>
+        <select id="routeFromSelect" class="select">
+          <option value="">اختر نقطة البداية</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="top-grid">
+      <div class="panel map-card">
+        <div class="map-shell">
+          <div class="map-caption">
+            <div class="inline-tools">
+              <span class="pill">اضغط على النقاط فوق الخريطة</span>
+              <span class="pill" id="selectedHint">لا يوجد مبنى محدد الآن</span>
+            </div>
+            <span id="routeSummary">اختر نقطة بداية من الأعلى ثم اضغط على مبنى لعرض مسار تقريبي إليه.</span>
+          </div>
+
+          <div class="map-container" id="mapContainer">
+            <img src="map.png" class="map-image">
+            <svg class="route-overlay" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <polyline id="routeLine" class="route-line" points=""></polyline>
+              <circle id="routeStart" class="route-point" r="1.1" cx="0" cy="0"></circle>
+              <circle id="routeEnd" class="route-point" r="1.1" cx="0" cy="0"></circle>
+            </svg>
+            <div class="points-layer" id="pointsLayer"></div>
+          </div>
+<div class="catalog-box">
+  <h3>دليل المباني</h3>
+
+  <table class="catalog-table">
+    
+
+    <tr><td>1</td><td>رئاسة الجامعة</td></tr>
+    <tr><td>2</td><td>الأمانة العامة</td></tr>
+    <tr><td>3</td><td>كلية التخطيط والادارة</td></tr>
+    <tr><td>4</td><td>كلية الهندسة</td></tr>
+    <tr><td>5</td><td>المشاغل الهندسية</td></tr>
+    <tr><td>6</td><td>كلية الأمير عبد الله بن غازي للعلوم وتكنولوجيا المعلومات</td></tr>
+    <tr><td>7</td><td>مجمع القاعات التدريسية</td></tr>
+    <tr><td>8</td><td>المكتبة المركزية</td></tr>
+    <tr><td>9</td><td>كفتيريا الطلبة</td></tr>
+    <tr><td>10</td><td>مركز الحاسوب</td></tr>
+    <tr><td>12</td><td>مبنى صالة الضيافة وكفتيرية الموضفين</td></tr>
+    <tr><td>14</td><td>مبنى الإدارة كلية السلط</td></tr>
+    <tr><td>15</td><td>مبنى ب</td></tr>
+    <tr><td>16</td><td>الأكاديمية الإلكترونية</td></tr>
+    <tr><td>17</td><td>مبنى أ</td></tr>
+    <tr><td>18</td><td>المبنى التجاري</td></tr>
+    <tr><td>19</td><td>مبنى الصالة الرياضية</td></tr>
+    <tr><td>20</td><td>مختبرات</td></tr>
+    <tr><td>21</td><td>مبنى قاعة الندوات</td></tr>
+    <tr><td>22</td><td>كلية الزراعة التكنولوجية</td></tr>
+    <tr><td>23</td><td>مدخل كلية الأمير عبد الله</td></tr>
+    <tr><td>24</td><td>مبنى العمادة</td></tr>
+    <tr><td>25</td><td>وحدة الخدمات العامة</td></tr>
+    <tr><td>25a</td><td>ملحق خدمات</td></tr>
+    <tr><td>28</td><td>مهبط الطائرات</td></tr>
+    <tr><td>32</td><td>البوابة الرئيسية</td></tr>
+    <tr><td>34</td><td>مدخل الرئاسة</td></tr>
+    <tr><td>35</td><td>مدخل كلية التخطيط</td></tr>
+    <tr><td>36</td><td>مدخل اللوازم المستودعات</td></tr>
+    <tr><td>38</td><td>المسجد</td></tr>
+    <tr><td>39</td><td>صرح الجامعة</td></tr>
+    <tr><td>40</td><td>مركز التطوير وضمان الجودة</td></tr>
+    <tr><td>41</td><td>الامن الجامعي</td></tr>
+    <tr><td>42</td><td>مبنى الاكاديمية</td></tr>
+    <tr><td>43</td><td>مبنى قسم الحركة</td></tr>
+    <tr><td>44</td><td>كلية السلط التقنية</td></tr>
+    <tr><td>45</td><td>كلية الأعمال</td></tr>
+    <tr><td>46</td><td>كلية الطب</td></tr>
+    <tr><td>47</td><td>مركز الدفاع المدني</td></tr>
+    <tr><td>48</td><td>كلية الذكاء الاصطناعي</td></tr>
+
+  </table>
+</div>
+        </div>
+      </div>
+
+      <aside class="panel side-card">
+        <div id="infoBox" class="info-box">
+          <div class="empty-state">اختر مبنى من الخريطة أو استخدم البحث.</div>
+          <div class="tip">تم استبدال الرسومات المبسطة بصورة الخريطة الواقعية مع نقاط تفاعلية فوقها.</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="stats" id="statsContainer"></section>
+  </div>
+   <script>
+    window.__BUILDINGS_FALLBACK__ = {"metadata": {"projectName": "University Interactive Map", "universityName": "Balqa Applied University", "version": "3.0 Graduation Edition"}, "buildings": [{"id": "bld-001", "name": "كلية الهندسة", "nameEn": "King Abdullah II School of Engineering", "shortName": "هندسة", "services": ["مختبرات", "قاعات تدريس", "مكاتب أكاديمية"], "location": {"x": 149, "y": 182}, "floors": [{"floorNumber": 1, "floorName": "الطابق الأول", "rooms": [{"id": "eng-101", "number": "101", "name": "مختبر برمجة 1", "type": "مختبر", "capacity": 25}, {"id": "eng-102", "number": "102", "name": "قاعة ميكانيك", "type": "قاعة", "capacity": 40}]}, {"floorNumber": 2, "floorName": "الطابق الثاني", "rooms": [{"id": "eng-201", "number": "201", "name": "مختبر الذكاء الاصطناعي", "type": "مختبر", "capacity": 35}, {"id": "eng-202", "number": "202", "name": "مختبر أمن المعلومات", "type": "مختبر", "capacity": 30}, {"id": "eng-203", "number": "203", "name": "قاعة دراسات عليا", "type": "قاعة دراسية", "capacity": 25}, {"id": "eng-205", "number": "205", "name": "مكتب العميد", "type": "مكتب", "capacity": 4}]}]}, {"id": "bld-002", "name": "كلية الأعمال", "nameEn": "Business College", "shortName": "أعمال", "services": ["قاعات محاضرات", "مكاتب هيئة التدريس"], "location": {"x": 331, "y": 122}, "floors": [{"floorNumber": 1, "floorName": "الطابق الأول", "rooms": [{"id": "bus-101", "number": "101", "name": "قاعة محاسبة", "type": "قاعة", "capacity": 45}, {"id": "bus-102", "number": "102", "name": "قاعة إدارة أعمال", "type": "قاعة", "capacity": 50}]}]}, {"id": "bld-003", "name": "كلية الآداب والعلوم", "nameEn": "Arts & Sciences", "shortName": "آداب", "services": ["قاعات تدريس", "مكاتب دكاترة"], "location": {"x": 209, "y": 340}, "floors": [{"floorNumber": 1, "floorName": "الطابق الأول", "rooms": [{"id": "art-101", "number": "101", "name": "قاعة لغة عربية", "type": "قاعة", "capacity": 30}, {"id": "art-102", "number": "102", "name": "قاعة علوم", "type": "قاعة", "capacity": 35}]}]}, {"id": "bld-004", "name": "المكتبة المركزية", "nameEn": "Central Library", "shortName": "مكتبة", "services": ["إنترنت", "إعارة كتب", "قاعات مطالعة"], "location": {"x": 442, "y": 284}, "floors": [{"floorNumber": 0, "floorName": "الطابق الأرضي", "rooms": [{"id": "lib-001", "number": "G01", "name": "صالة مطالعة", "type": "خدمة", "capacity": 60}, {"id": "lib-002", "number": "G02", "name": "قسم الإعارة", "type": "مكتب", "capacity": 10}]}]}, {"id": "bld-005", "name": "كلية تكنولوجيا المعلومات", "nameEn": "Information Technology", "shortName": "IT", "services": ["مختبرات حاسوب", "شبكات", "مختبر مشاريع"], "location": {"x": 531, "y": 146}, "floors": [{"floorNumber": 1, "floorName": "الطابق الأول", "rooms": [{"id": "it-101", "number": "101", "name": "مختبر برمجة", "type": "مختبر", "capacity": 25}, {"id": "it-102", "number": "102", "name": "قاعة شبكات", "type": "قاعة", "capacity": 40}]}]}, {"id": "bld-006", "name": "مبنى الإدارة", "nameEn": "Administration", "shortName": "إدارة", "services": ["قبول وتسجيل", "شؤون الطلبة", "مالية"], "location": {"x": 614, "y": 333}, "floors": [{"floorNumber": 0, "floorName": "الطابق الأرضي", "rooms": [{"id": "adm-001", "number": "A01", "name": "القبول والتسجيل", "type": "مكتب", "capacity": 15}, {"id": "adm-002", "number": "A02", "name": "شؤون الطلبة", "type": "مكتب", "capacity": 15}]}]}]};
+  </script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "projectName": "University Interactive Map",
+    "universityName": "Balqa Applied University",
+    "version": "3.0 Graduation Edition"
+  },
+  "buildings": [
+    {
+      "id": "bld-001",
+      "name": "كلية الهندسة",
+      "nameEn": "King Abdullah II School of Engineering",
+      "shortName": "هندسة",
+      "services": [
+        "مختبرات",
+        "قاعات تدريس",
+        "مكاتب أكاديمية"
+      ],
+      "location": {
+        "x": 149,
+        "y": 182
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "الطابق الأول",
+          "rooms": [
+            {
+              "id": "eng-101",
+              "number": "101",
+              "name": "مختبر برمجة 1",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "eng-102",
+              "number": "102",
+              "name": "قاعة ميكانيك",
+              "type": "قاعة",
+              "capacity": 40
+            },
+            {
+              "id": "eng-103",
+              "number": "103",
+              "name": "مختبر ميكاترونكس",
+              "type": "مختبر",
+              "capacity": 20
+            }
+          ]
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "الطابق الثاني",
+          "rooms": [
+            {
+              "id": "eng-201",
+              "number": "201",
+              "name": "مختبر الذكاء الاصطناعي",
+              "type": "مختبر",
+              "capacity": 35
+            },
+            {
+              "id": "eng-202",
+              "number": "202",
+              "name": "قاعة رسم هندسي",
+              "type": "قاعة",
+              "capacity": 30
+            },
+            {
+              "id": "eng-203",
+              "number": "203",
+              "name": "مكتب عميد الكلية",
+              "type": "مكتب",
+              "capacity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bld-002",
+      "name": "كلية الأعمال",
+      "nameEn": "School of Business",
+      "shortName": "أعمال",
+      "services": [
+        "قاعات محاضرات",
+        "مختبرات محاسبة",
+        "مكتبة فرعية"
+      ],
+      "location": {
+        "x": 312,
+        "y": 425
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "الطابق الأول",
+          "rooms": [
+            {
+              "id": "bus-101",
+              "number": "101",
+              "name": "قاعة إدارة أعمال",
+              "type": "قاعة",
+              "capacity": 45
+            },
+            {
+              "id": "bus-102",
+              "number": "102",
+              "name": "مختبر نظم معلومات إدارية",
+              "type": "مختبر",
+              "capacity": 30
+            },
+            {
+              "id": "bus-103",
+              "number": "103",
+              "name": "مكتب رئيس القسم",
+              "type": "مكتب",
+              "capacity": 4
+            }
+          ]
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "الطابق الثاني",
+          "rooms": [
+            {
+              "id": "bus-201",
+              "number": "201",
+              "name": "قاعة تسويق رقمي",
+              "type": "قاعة",
+              "capacity": 35
+            },
+            {
+              "id": "bus-202",
+              "number": "202",
+              "name": "قاعة مالية ومصرفية",
+              "type": "قاعة",
+              "capacity": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bld-003",
+      "name": "كلية العلوم والآداب",
+      "nameEn": "School of Science and Arts",
+      "shortName": "علوم وآداب",
+      "services": [
+        "مختبرات كيمياء وفيزياء",
+        "قاعات تدريس مشتركة"
+      ],
+      "location": {
+        "x": 220,
+        "y": 110
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "الطابق الأول",
+          "rooms": [
+            {
+              "id": "sci-101",
+              "number": "101",
+              "name": "مختبر الكيمياء العضوية",
+              "type": "مختبر",
+              "capacity": 20
+            },
+            {
+              "id": "sci-102",
+              "number": "102",
+              "name": "مختبر الفيزياء العامة",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "sci-103",
+              "number": "103",
+              "name": "قاعة رياضيات",
+              "type": "قاعة",
+              "capacity": 50
+            }
+          ]
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "الطابق الثاني",
+          "rooms": [
+            {
+              "id": "art-101",
+              "number": "101",
+              "name": "قاعة اللغة العربية",
+              "type": "قاعة",
+              "capacity": 30
+            },
+            {
+              "id": "art-102",
+              "number": "102",
+              "name": "قاعة اللغة الإنجليزية",
+              "type": "قاعة",
+              "capacity": 35
+            },
+            {
+              "id": "art-103",
+              "number": "103",
+              "name": "مكتب رئيس قسم الآداب",
+              "type": "مكتب",
+              "capacity": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bld-004",
+      "name": "المكتبة المركزية",
+      "nameEn": "Central Library",
+      "shortName": "مكتبة",
+      "services": [
+        "إنترنت",
+        "إعارة كتب",
+        "قاعات مطالعة",
+        "قاعدة بيانات الأبحاث"
+      ],
+      "location": {
+        "x": 442,
+        "y": 284
+      },
+      "floors": [
+        {
+          "floorNumber": 0,
+          "floorName": "الطابق الأرضي",
+          "rooms": [
+            {
+              "id": "lib-001",
+              "number": "G01",
+              "name": "صالة مطالعة رئيسية",
+              "type": "خدمة",
+              "capacity": 60
+            },
+            {
+              "id": "lib-002",
+              "number": "G02",
+              "name": "قسم الإعارة والاستفسارات",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "lib-003",
+              "number": "G03",
+              "name": "مكتبة الكتب النادرة",
+              "type": "خدمة",
+              "capacity": 15
+            }
+          ]
+        },
+        {
+          "floorNumber": 1,
+          "floorName": "الطابق الأول",
+          "rooms": [
+            {
+              "id": "lib-101",
+              "number": "101",
+              "name": "مختبر البحث الإلكتروني",
+              "type": "مختبر",
+              "capacity": 30
+            },
+            {
+              "id": "lib-102",
+              "number": "102",
+              "name": "قاعة دراسة جماعية (A)",
+              "type": "قاعة",
+              "capacity": 12
+            },
+            {
+              "id": "lib-103",
+              "number": "103",
+              "name": "قاعة دراسة جماعية (B)",
+              "type": "قاعة",
+              "capacity": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bld-005",
+      "name": "كلية تكنولوجيا المعلومات",
+      "nameEn": "Information Technology",
+      "shortName": "IT",
+      "services": [
+        "مختبرات حاسوب حديثة",
+        "شبكات متطورة",
+        "مختبر مشاريع التخرج"
+      ],
+      "location": {
+        "x": 531,
+        "y": 146
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "الطابق الأول",
+          "rooms": [
+            {
+              "id": "it-101",
+              "number": "101",
+              "name": "مختبر برمجة الكينونة Java",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "it-102",
+              "number": "102",
+              "name": "مختبر تصميم وهندسة البرمجيات",
+              "type": "مختبر",
+              "capacity": 40
+            },
+            {
+              "id": "it-103",
+              "number": "103",
+              "name": "قاعة محاضرات نظم المعلومات",
+              "type": "قاعة",
+              "capacity": 35
+            }
+          ]
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "الطابق الثاني",
+          "rooms": [
+            {
+              "id": "it-201",
+              "number": "201",
+              "name": "مختبر أمن الشبكات والسيبراني",
+              "type": "مختبر",
+              "capacity": 30
+            },
+            {
+              "id": "it-202",
+              "number": "202",
+              "name": "مختبر هندسة برمجيات متقدم",
+              "type": "مختبر",
+              "capacity": 25
+            },
+            {
+              "id": "it-203",
+              "number": "203",
+              "name": "مكتب الإرشاد الأكاديمي",
+              "type": "مكتب",
+              "capacity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bld-006",
+      "name": "مبنى الإدارة الرئيسي",
+      "nameEn": "Administration Building",
+      "shortName": "إدارة",
+      "services": [
+        "خدمات القبول والتسجيل",
+        "الشؤون المالية والاستفسارات",
+        "مكاتب الهيئة الإدارية"
+      ],
+      "location": {
+        "x": 620,
+        "y": 350
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "الطابق الأول",
+          "rooms": [
+            {
+              "id": "adm-101",
+              "number": "101",
+              "name": "ديوان الجامعة الرئيسي",
+              "type": "مكتب",
+              "capacity": 15
+            },
+            {
+              "id": "adm-102",
+              "number": "102",
+              "name": "صالة القبول والتسجيل",
+              "type": "خدمة",
+              "capacity": 50
+            },
+            {
+              "id": "adm-103",
+              "number": "103",
+              "name": "الدائرة المالية (الصندوق)",
+              "type": "مكتب",
+              "capacity": 8
+            }
+          ]
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "الطابق الثاني",
+          "rooms": [
+            {
+              "id": "adm-201",
+              "number": "201",
+              "name": "مكتب رئيس الجامعة",
+              "type": "مكتب",
+              "capacity": 10
+            },
+            {
+              "id": "adm-202",
+              "number": "202",
+              "name": "مكتب نائب الرئيس للشؤون الأكاديمية",
+              "type": "مكتب",
+              "capacity": 6
+            },
+            {
+              "id": "adm-203",
+              "number": "203",
+              "name": "قاعة الاجتماعات الكبرى (مجلس الجامعة)",
+              "type": "قاعة",
+              "capacity": 30
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
