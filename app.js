@@ -358,17 +358,6 @@ function renderSearchResults(results) {
     <div class="rooms-list">${html}</div>
   `;
 }
-
-function renderStats() {
-  const stats = getStatistics();
-  document.getElementById('statsContainer').innerHTML = `
-    <div class="panel stat-card"><strong>${stats.totalBuildings}</strong><span>مبنى</span></div>
-    <div class="panel stat-card"><strong>${stats.totalFloors}</strong><span>طابق</span></div>
-    <div class="panel stat-card"><strong>${stats.totalRooms}</strong><span>قاعة</span></div>
-    <div class="panel stat-card"><strong>${stats.totalCapacity}</strong><span>إجمالي السعة</span></div>
-  `;
-}
-
 function populateTypeFilter() {
   const select = document.getElementById('typeFilter');
   getRoomTypes().forEach(type => {
@@ -532,7 +521,6 @@ async function initializeApp() {
   createMapPoints();
   populateTypeFilter();
   populateRouteStart();
-  renderStats();
 
   document.getElementById('searchButton').addEventListener('click', performSearch);
   document.getElementById('searchInput').addEventListener('keydown', event => {
