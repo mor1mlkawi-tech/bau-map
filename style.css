@@ -148,7 +148,7 @@
   }
 }
 
-    .route-line.visible { opacity: 1; }
+    
     .route-point { fill: var(--route); opacity: 0; transition: opacity 0.25s ease; }
     .route-point.visible { opacity: 1; }
     @keyframes dash { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -18; } }
