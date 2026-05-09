@@ -151,13 +151,18 @@
     
     .route-point { fill: var(--route); opacity: 0; transition: opacity 0.25s ease; }
     .route-point.visible { opacity: 1; }
-    @keyframes dash { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -18; } }
-
     .side-card { display: grid; gap: 14px; }
     .info-box {
-      background: var(--panel-2); border: 1px solid var(--border); border-radius: 16px; padding: 14px;
-    }
-    .info-box { min-height: 420px; display: grid; gap: 14px; align-content: start; }
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px;
+
+  min-height: 420px;
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
     .box-title { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 10px; }
     .box-title h3, .info-header h2 { margin: 0; }
     .info-header {
