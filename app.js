@@ -1,10 +1,9 @@
 
-let buildingsData = { buildings: [], metadata: {} };
+let buildingsData = { buildings: [], };
 
 const state = {
   selectedBuildingId: null,
   selectedFloorNumber: null,
-  currentResults: [],
   currentSearchQuery: ''
 };
 
@@ -123,10 +122,6 @@ async function loadBuildingsData() {
     buildingsData = await response.json();
     return buildingsData;
   } catch (error) {
-    if (window.__BUILDINGS_FALLBACK__) {
-      buildingsData = window.__BUILDINGS_FALLBACK__;
-      return buildingsData;
-    }
     return null;
   }
 }
@@ -435,7 +430,6 @@ function performSearch() {
   let results = searchAll(searchValue);
   results = filterRoomsByType(results, typeValue);
   results = sortItems(results, sortValue);
-  state.currentResults = results;
   renderSearchResults(results);
   updateBuildingHighlight(null);
 }
