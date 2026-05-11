@@ -223,19 +223,6 @@ function searchAll(query) {
 function getRoomTypes() {
   return [...new Set(getAllRooms().map(room => room.type))];
 }
-
-function getStatistics() {
-  const rooms = getAllRooms();
-  const totalCapacity = rooms.reduce((sum, room) => sum + (room.capacity || 0), 0);
-  const totalFloors = buildingsData.buildings.reduce((sum, building) => sum + building.floors.length, 0);
-  return {
-    totalBuildings: buildingsData.buildings.length,
-    totalFloors,
-    totalRooms: rooms.length,
-    totalCapacity
-  };
-}
-
 function sortItems(items, sortValue) {
   const cloned = [...items];
   if (sortValue === 'capacity') return cloned.sort((a, b) => (b.capacity || 0) - (a.capacity || 0));
