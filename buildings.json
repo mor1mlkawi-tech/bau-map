@@ -1,4 +1,4 @@
-w{
+{
   "metadata": {
     "projectName": "University Interactive Map",
     "universityName": "Balqa Applied University",
@@ -1518,6 +1518,6 @@ w{
       "shortName": "التخطيط والادارة",
       "services": [],
       "floors": []
-    },
+    }
   ]
 }
