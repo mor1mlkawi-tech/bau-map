@@ -16,10 +16,6 @@
         "مكاتب أكاديمية",
         "مسرح"
       ],
-      "location": {
-        "x": 149,
-        "y": 182
-      },
       "floors": [
         {
           "floorNumber": 2,
@@ -462,10 +458,6 @@
         "مختبرات محاسبة",
         "مكتبة فرعية"
       ],
-      "location": {
-        "x": 312,
-        "y": 425
-      },
       "floors": [
         {
           "floorNumber": 1,
@@ -525,10 +517,6 @@
         "مختبرات كيمياء وفيزياء",
         "قاعات تدريس مشتركة"
       ],
-      "location": {
-        "x": 220,
-        "y": 110
-      },
       "floors": [
         {
           "floorNumber": 1,
@@ -597,10 +585,6 @@
         "قاعات مطالعة",
         "قاعدة بيانات الأبحاث"
       ],
-      "location": {
-        "x": 442,
-        "y": 284
-      },
       "floors": [
         {
           "floorNumber": 0,
@@ -668,10 +652,6 @@
         "شبكات متطورة",
         "مختبر مشاريع التخرج"
       ],
-      "location": {
-        "x": 531,
-        "y": 146
-      },
       "floors": [
         {
           "floorNumber": 1,
@@ -739,10 +719,6 @@
         "الشؤون المالية والاستفسارات",
         "مكاتب الهيئة الإدارية"
       ],
-      "location": {
-        "x": 620,
-        "y": 350
-      },
       "floors": [
         {
           "floorNumber": 1,
@@ -811,10 +787,6 @@
         "مشاغل تقنية",
         "مدرج"
       ],
-      "location": {
-        "x": 50,
-        "y": 50
-      },
       "floors": [
         {
           "floorNumber": -1,
@@ -1043,10 +1015,6 @@
         "مكاتب أكاديمية",
         "مدرج"
       ],
-      "location": {
-        "x": 350,
-        "y": 350
-      },
       "floors": [
         {
           "floorNumber": -2,
@@ -1229,10 +1197,6 @@
         "مسرح",
         "كافتيريا"
       ],
-      "location": {
-        "x": 400,
-        "y": 200
-      },
       "floors": [
         {
           "floorNumber": 2,
@@ -1483,345 +1447,75 @@
         }
       ]
     },
-    {
-      "id": "bld-010",
-      "mapNumber": "1",
-      "name": "رئاسة الجامعة",
-      "nameEn": "University Presidency",
-      "shortName": "رئاسة الجامعة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-011",
-      "mapNumber": "2",
-      "name": "الأمانة العامة",
-      "nameEn": "General Secretariat",
-      "shortName": "الأمانة العامة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-012",
-      "mapNumber": "3",
-      "name": "كلية التخطيط والادارة",
-      "nameEn": "College of Planning and Administration",
-      "shortName": "التخطيط والادارة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-013",
-      "mapNumber": "5",
-      "name": "المشاغل الهندسية",
-      "nameEn": "Engineering Workshops",
-      "shortName": "المشاغل الهندسية",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-014",
-      "mapNumber": "7",
-      "name": "مجمع القاعات التدريسية",
-      "nameEn": "Teaching Halls Complex",
-      "shortName": "مجمع القاعات",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-015",
-      "mapNumber": "9",
-      "name": "كفتيريا الطلبة",
-      "nameEn": "Students Cafeteria",
-      "shortName": "كفتيريا الطلبة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-016",
-      "mapNumber": "10",
-      "name": "مركز الحاسوب",
-      "nameEn": "Computer Center",
-      "shortName": "مركز الحاسوب",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-017",
-      "mapNumber": "12",
-      "name": "مبنى صالة الضيافة وكفتيرية الموظفين",
-      "nameEn": "Hospitality Hall and Staff Cafeteria",
-      "shortName": "صالة الضيافة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-018",
-      "mapNumber": "14",
-      "name": "مبنى الإدارة كلية السلط",
-      "nameEn": "Al-Salt College Administration Building",
-      "shortName": "إدارة كلية السلط",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-019",
-      "mapNumber": "15",
-      "name": "مبنى ب",
-      "nameEn": "Building B",
-      "shortName": "مبنى ب",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-020",
-      "mapNumber": "16",
-      "name": "الأكاديمية الإلكترونية",
-      "nameEn": "E-Academy",
-      "shortName": "الأكاديمية الإلكترونية",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-021",
-      "mapNumber": "17",
-      "name": "مبنى أ",
-      "nameEn": "Building A",
-      "shortName": "مبنى أ",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-022",
-      "mapNumber": "18",
-      "name": "المبنى التجاري",
-      "nameEn": "Commercial Building",
-      "shortName": "المبنى التجاري",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-023",
-      "mapNumber": "19",
-      "name": "مبنى الصالة الرياضية",
-      "nameEn": "Sports Hall Building",
-      "shortName": "الصالة الرياضية",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-024",
-      "mapNumber": "20",
-      "name": "مختبرات",
-      "nameEn": "Laboratories",
-      "shortName": "مختبرات",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-025",
-      "mapNumber": "21",
-      "name": "مبنى قاعة الندوات",
-      "nameEn": "Seminar Hall Building",
-      "shortName": "قاعة الندوات",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-026",
-      "mapNumber": "22",
-      "name": "كلية الزراعة التكنولوجية",
-      "nameEn": "College of Technological Agriculture",
-      "shortName": "الزراعة التكنولوجية",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-027",
-      "mapNumber": "23",
-      "name": "مدخل كلية الأمير عبد الله",
-      "nameEn": "Prince Abdullah College Entrance",
-      "shortName": "مدخل كلية الأمير",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-028",
-      "mapNumber": "24",
-      "name": "مبنى العمادة",
-      "nameEn": "Deanship Building",
-      "shortName": "مبنى العمادة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-029",
-      "mapNumber": "25",
-      "name": "وحدة الخدمات العامة",
-      "nameEn": "General Services Unit",
-      "shortName": "الخدمات العامة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-030",
-      "mapNumber": "25a",
-      "name": "ملحق خدمات",
-      "nameEn": "Services Annex",
-      "shortName": "ملحق خدمات",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-031",
-      "mapNumber": "28",
-      "name": "مهبط الطائرات",
-      "nameEn": "Helipad",
-      "shortName": "مهبط الطائرات",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-032",
-      "mapNumber": "32",
-      "name": "البوابة الرئيسية",
-      "nameEn": "Main Gate",
-      "shortName": "البوابة الرئيسية",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-033",
-      "mapNumber": "34",
-      "name": "مدخل الرئاسة",
-      "nameEn": "Presidency Entrance",
-      "shortName": "مدخل الرئاسة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-034",
-      "mapNumber": "35",
-      "name": "مدخل كلية التخطيط",
-      "nameEn": "Planning College Entrance",
-      "shortName": "مدخل كلية التخطيط",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-035",
-      "mapNumber": "36",
-      "name": "مدخل اللوازم المستودعات",
-      "nameEn": "Supplies and Warehouses Entrance",
-      "shortName": "مدخل اللوازم",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-036",
-      "mapNumber": "38",
-      "name": "المسجد",
-      "nameEn": "Mosque",
-      "shortName": "المسجد",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-037",
-      "mapNumber": "39",
-      "name": "صرح الجامعة",
-      "nameEn": "University Landmark",
-      "shortName": "صرح الجامعة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-038",
-      "mapNumber": "40",
-      "name": "مركز التطوير وضمان الجودة",
-      "nameEn": "Development and Quality Assurance Center",
-      "shortName": "مركز الجودة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-039",
-      "mapNumber": "41",
-      "name": "الامن الجامعي",
-      "nameEn": "University Security",
-      "shortName": "الامن الجامعي",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-040",
-      "mapNumber": "42",
-      "name": "مبنى الاكاديمية",
-      "nameEn": "Academy Building",
-      "shortName": "مبنى الاكاديمية",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
-      "id": "bld-041",
-      "mapNumber": "43",
-      "name": "مبنى قسم الحركة",
-      "nameEn": "Traffic Department Building",
-      "shortName": "قسم الحركة",
-      "services": [],
-      "location": { "x": 0, "y": 0 },
-      "floors": []
-    },
-    {
+  {
       "id": "bld-042",
-      "mapNumber": "46",
       "name": "كلية الطب",
       "nameEn": "College of Medicine",
       "shortName": "كلية الطب",
       "services": [],
-      "location": { "x": 0, "y": 0 },
       "floors": []
     },
     {
-      "id": "bld-043",
-      "mapNumber": "47",
-      "name": "مركز الدفاع المدني",
-      "nameEn": "Civil Defense Center",
-      "shortName": "الدفاع المدني",
+      "id": "bld-040",
+      "name": "مبنى الاكاديمية",
+      "nameEn": "Academy Building",
+      "shortName": "مبنى الاكاديمية",
       "services": [],
-      "location": { "x": 0, "y": 0 },
       "floors": []
-    }
-  ]
-}
+    },
+    {
+      "id": "bld-032",
+      "name": "البوابة الرئيسية",
+      "nameEn": "Main Gate",
+      "shortName": "البوابة الرئيسية",
+      "services": [],
+      "floors": []
+    },
+    {
+      "id": "bld-026",
+      "name": "كلية الزراعة التكنولوجية",
+      "nameEn": "College of Technological Agriculture",
+      "shortName": "الزراعة التكنولوجية",
+      "services": [],
+      "floors": []
+    },
+    {
+      "id": "bld-023",
+      "name": "مبنى الصالة الرياضية",
+      "nameEn": "Sports Hall Building",
+      "shortName": "الصالة الرياضية",
+      "services": [],
+      "floors": []
+    },
+    {
+      "id": "bld-016",
+      "name": "مركز الحاسوب",
+      "nameEn": "Computer Center",
+      "shortName": "مركز الحاسوب",
+      "services": [],
+      "floors": []
+    },
+    {
+      "id": "bld-014",
+      "name": "مجمع القاعات التدريسية",
+      "nameEn": "Teaching Halls Complex",
+      "shortName": "مجمع القاعات",
+      "services": [],
+      "floors": []
+    },
+    {
+      "id": "bld-013",
+      "name": "المشاغل الهندسية",
+      "nameEn": "Engineering Workshops",
+      "shortName": "المشاغل الهندسية",
+      "services": [],
+      "floors": []
+    },
+    {
+      "id": "bld-012",
+      "name": "كلية التخطيط والادارة",
+      "nameEn": "College of Planning and Administration",
+      "shortName": "التخطيط والادارة",
+      "services": [],
+      "floors": []
+    },
