@@ -1,5 +1,5 @@
 
-let buildingsData = { buildings: [], };
+let buildingsData = { buildings: [] };
 
 const state = {
   selectedBuildingId: null,
